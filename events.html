@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Camping</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='res/css/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='res/css/bootstrap.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='res/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./res/js/real_java.js "></script>
+
+
+</head>
+
+<body onload="cover()">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./home.html">MyCamp</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#content" aria-controls="content" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="content">
+                <ul class="navbar-nav w-100">
+                    <li class="nav-item"><a class="nav-link" href="./home.html">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="./events.html">Events</a></li>
+                    <li class="nav-item ml-auto"><a class="nav-link" href="./sign_in.html">Sign in</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./sign_up.html">Sign up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-lg-5 mt-md-4 mt-sm-3">
+        <h2>Find The Best Event For You </h2>
+        <div class="row mt-lg-5 mt-md-4 mt-3">
+            <div class="col-lg-3 col-md-6 col-12 py-3">
+                <div class="nature_card card p-0 h-100 center rounded">
+                    <div class="pt-3 px-3">
+                        <img class="card-img-top rounded" src="res/img/nature1.jpg">
+                        <img class="heart rounded" onclick="heart(this )" src="res/img/heart.svg">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Camping In Lake</h5>
+                        <p class="card-text">There will be green all around you so it will be good for relaxing.</p>
+                        <a class="read rounded p-2 shadow btn-block" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 py-3">
+                <div class="nature_card card p-0 h-100 center rounded">
+                    <div class="pt-3 px-3">
+                        <img class="card-img-top rounded" src="res/img/nature2.jpg">
+                        <img class="heart rounded" onclick="heart(this )" src="res/img/heart.svg">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">In The Wood</h5>
+                        <p class="card-text">There will be green all around you so it will be good for relaxing.</p>
+                        <a class="card-link read rounded p-2 shadow btn-block" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 py-3">
+                <div class="nature_card card p-0 h-100 center rounded">
+                    <div class="images pt-3 px-3">
+                        <img class="card-img-top rounded" src="res/img/nature3.jpg">
+                        <img class="heart rounded" onclick="heart(this )" src="res/img/heart.svg">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Walk In Nature</h5>
+                        <p class="card-text">There will be green all around you so it will be good for relaxing.</p>
+                        <a class="card-link read rounded p-2 shadow btn-block" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 py-3">
+                <div class="nature_card card p-0 h-100 center rounded">
+                    <div class="images pt-3 px-3">
+                        <img class="card-img-top rounded" src="res/img/nature4.jpg">
+                        <img class="heart rounded" onclick="heart(this )" src="res/img/heart.svg">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Summer Camping</h5>
+                        <p class="card-text">There will be green all around you so it will be good for relaxing.</p>
+                        <a class="card-link read rounded p-2 shadow btn-block" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row my-lg-5 my-md-4 my-3">
+            <div class="col-lg-3 col-md-6 col-12 py-3">
+                <div class="nature_card card p-0 h-100 center rounded">
+                    <div class="images pt-3 px-3">
+                        <img class="card-img-top rounded" src="res/img/nature4.jpg">
+                        <img class="heart rounded" onclick="heart(this )" src="res/img/heart.svg">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Summer Camping</h5>
+                        <p class="card-text">There will be green all around you so it will be good for relaxing.</p>
+                        <a class="card-link read rounded p-2 shadow btn-block" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 py-3">
+                <div class="nature_card card p-0 h-100 center rounded">
+                    <div class="images pt-3 px-3">
+                        <img class="card-img-top rounded" src="res/img/nature3.jpg">
+                        <img class="heart rounded" onclick="heart(this )" src="res/img/heart.svg">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Walk In Nature</h5>
+                        <p class="card-text">There will be green all around you so it will be good for relaxing.</p>
+                        <a class="card-link read rounded p-2 shadow btn-block" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 py-3">
+                <div class="nature_card card p-0 h-100 center rounded">
+                    <div class="images pt-3 px-3">
+                        <img class="card-img-top rounded" src="res/img/nature2.jpg">
+                        <img class="heart rounded" onclick="heart(this )" src="res/img/heart.svg">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">In The Wood</h5>
+                        <p class="card-text">There will be green all around you so it will be good for relaxing.</p>
+                        <a class="card-link read rounded p-2 shadow btn-block" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 py-3">
+                <div class="nature_card card p-0 h-100 center rounded">
+                    <div class="images pt-3 px-3">
+                        <img class="card-img-top rounded" src="res/img/nature1.jpg">
+                        <img class="heart rounded" onclick="heart(this )" src="res/img/heart.svg">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Camping in Lack</h5>
+                        <p class="card-text">There will be green all around you so it will be good for relaxing.</p>
+                        <a class="card-link read rounded p-2 shadow btn-block" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-lg-5 mt-md-4 mt-3">
+            <div class="col-lg-3 col-md-6 col-12 py-3">
+                <div class="nature_card card p-0 h-100 center rounded">
+                    <div class="pt-3 px-3">
+                        <img class="card-img-top rounded" src="res/img/nature1.jpg">
+                        <img class="heart rounded" onclick="heart(this )" src="res/img/heart.svg">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Camping In Lake</h5>
+                        <p class="card-text">There will be green all around you so it will be good for relaxing.</p>
+                        <a class="read rounded p-2 shadow btn-block" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 py-3">
+                <div class="nature_card card p-0 h-100 center rounded">
+                    <div class="pt-3 px-3">
+                        <img class="card-img-top rounded" src="res/img/nature2.jpg">
+                        <img class="heart rounded" onclick="heart(this )" src="res/img/heart.svg">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">In The Wood</h5>
+                        <p class="card-text">There will be green all around you so it will be good for relaxing.</p>
+                        <a class="card-link read rounded p-2 shadow btn-block" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 py-3">
+                <div class="nature_card card p-0 h-100 center rounded">
+                    <div class="images pt-3 px-3">
+                        <img class="card-img-top rounded" src="res/img/nature3.jpg">
+                        <img class="heart rounded" onclick="heart(this )" src="res/img/heart.svg">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Walk In Nature</h5>
+                        <p class="card-text">There will be green all around you so it will be good for relaxing.</p>
+                        <a class="card-link read rounded p-2 shadow btn-block" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 py-3">
+                <div class="nature_card card p-0 h-100 center rounded">
+                    <div class="images pt-3 px-3">
+                        <img class="card-img-top rounded" src="res/img/nature4.jpg">
+                        <img class="heart rounded" onclick="heart(this )" src="res/img/heart.svg">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Summer Camping</h5>
+                        <p class="card-text">There will be green all around you so it will be good for relaxing.</p>
+                        <a class="card-link read rounded p-2 shadow btn-block" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blockquote-footer pink-bg row mt-lg-5 mt-md-4 mt-3">
+            <div class="col-lg-5 col-12">
+                <p class="font-weight-bold">Camping Is The answer</p>
+                <p>MyCamp is the best way to descover new places for camping.Also to see the real nature and take time to yourself to relax abart from work. All camping places in one site.</p>
+            </div>
+            <div class="col-lg-2 col-4">
+                <h6 class="font-weight-bold">Get to know us</h6>
+                <ul class="list-unstyled">
+                    <p><a class="footer_link" href="#">About US</a></p>
+                    <p><a class="footer_link" href="#">Media Center</a></p>
+                    <p><a class="footer_link" href="#">Site Map</a></p>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-4">
+                <h6 class="font-weight-bold">Plan with us</h6>
+                <p><a href="#" class="footer_link">Find Trip</a></p>
+                <p><a href="#" class="footer_link">Book A Trip</a></p>
+                <p><a href="#" class="footer_link">Site Map</a></p>
+
+            </div>
+            <div class="col-lg-2 col-4 ">
+                <h6 class="font-weight-bold">Contacte Us</h6><br>
+                <a href="# "><img class="w-25" src="res/img/facebook.svg "></a>
+                <a href="# "><img class="w-25 ml-4" src="res/img/linkedin.svg "></a>
+            </div>
+        </div>
+    </div>
+
+</body>

@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+}
+
+.cover {
+    width: 100%;
+    border-bottom-left-radius: 6%;
+    border-bottom-right-radius: 6%;
+}
+
+.footer_link:hover {
+    text-decoration: none;
+}
+
+.footer_link {
+    color: grey;
+}
+
+.absolute {
+    margin: auto;
+    position: absolute;
+    top: 90%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.nature_card:hover {
+    transform: scale(1.15);
+    box-shadow: 2px 2px 15px rgb(0, 0, 0, 0.6);
+    z-index: 9;
+}
+
+.center_btn {
+    position: relative;
+    left: 38%;
+}
+
+.heart {
+    background-color: white;
+    position: absolute;
+    padding: 1.5%;
+    width: 12%;
+    right: 8%;
+    top: 8%;
+}
+
+.read:hover {
+    background-color: #b36666;
+    color: white;
+    text-decoration: none;
+}
+
+.read {
+    color: white;
+    background-color: #d88989;
+    text-decoration: none;
+}
+
+.heart:hover {
+    cursor: pointer;
+}
+
+.card {
+    box-shadow: 0 15px 30px rgba(59, 43, 91, 0.7);
+}
+
+button {
+    background-color: white;
+    border-style: none;
+    opacity: 0.8;
+}
+
+#title {
+    font-size: 5vw;
+    color: white;
+    font-family: "Arial Black", sans-serif;
+    text-transform: capitalize;
+    position: absolute;
+    left: 30%;
+    top: 25%
+}
+
+.background {
+    background-image: url(../img/fall.jpg);
+    width: 100;
+    background-size: cover;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.margin15 {
+    margin-top: 15%;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 0px black;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 30%;
+}
+
+#sign_up {
+    width: 40%;
+}
+
+.padding {
+    padding-top: 10%;
+}
+
+#icon {
+    width: 100%;
+    text-align: center;
+    font-size: 9vw;
+}
+
+#intro_card img {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#moving {
+    position: absolute;
+    left: 0;
+    letter-spacing: 10px;
+}
+
+#patrik {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ball {
+    display: none;
+    border-radius: 50%;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
